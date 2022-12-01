@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*selection color*/
+::-moz-selection {
+    color: aliceblue;
+    background: #adadad;
+}
+
+::selection {
+    color: aliceblue;
+    background: #adadad;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+main {
+    box-shadow: 30px 20px 15px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 14px;
+}
+
+/*Left side*/
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container .left {
+    position: relative;
+    padding: 40px;
+    background: #044e71;
+}
+
+.container .right {
+    position: relative;
+    padding: 40px;
+}
+
+.profil {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.profil .imgbx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.profil .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.profil h1 {
+    color: aliceblue;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.3em;
+    font-size: 20px;
+}
+
+.profil h2 span {
+    font-size: 0.6em;
+    font-weight: 300;
+}
+
+.contact,
+.competences,
+.lang {
+    padding-top: 50px;
+}
+
+.contact .title-contact,
+.competences .title-comp,
+.lang .title-lang {
+    padding: 10px;
+    background-color: #007DB1;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.contact ul,
+.competences ul {
+    position: relative;
+}
+
+.contact ul li,
+.competences ul li,
+.lang ul li {
+    position: relative;
+    list-style: square inside;
+    margin: 10px 0;
+}
+
+.contact ul li {
+    list-style: none;
+}
+
+.contact ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+
+
+
+/*right side*/
+
+.container .right {
+    position: relative;
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+.right {
+    margin-bottom: 50px;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.banner .imgbx2 {
+    position: relative;
+    width: 500px;
+    height: 290px;
+}
+
+.banner .imgbx2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.title-profil,
+.title-xp,
+.title-footer {
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #044e71;
+    padding: 10px;
+}
+
+p {
+    color: #333;
+    text-align: justify;
+}
+
+hr {
+    border-top: 2px solid #333;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.title-xp {
+    margin-top: 20px;
+}
+
+.xp-content {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.xp-content h3,
+.xp-content .subtitle {
+    padding: 5px;
+    color: aliceblue;
+    background-color: #007DB1;
+}
+
+.xp-content p {
+    margin-top: 20px;
+}
+
+.xp-content .bgcolor {
+    background-color: #fff;
+}
+
+.block-footer {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.title-footer {
+    margin-top: 40px;
+}
+
+.subtitle-footer h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.subtitle-footer ul li {
+    padding: 10px 20px;
+    list-style: none;
+}
+
+.subtitle-footer {
+    text-align: center;
+    color: #007DB1;
+    background-color: #fff;
+}
